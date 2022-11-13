@@ -1,117 +1,206 @@
 
- div a strong em span{
+div a strong em span {
     font-size: 30px;
-     color: deeppink;
-     letter-spacing: 2px;
+    color: deeppink;
+    letter-spacing: 2px;
 }
- .youtube{
-     margin-left: 10px;
-     margin-right: 10px;
-     width: 40px;
- }
- .gradient-custom-2 {
-     /* fallback for old browsers */
-     background: #fccb90;
 
-     /* Chrome 10-25, Safari 5.1-6 */
-     background: -webkit-linear-gradient(to right, #ee7724, #d8363a, #dd3675, #b44593);
+.youtube {
+    margin-left: 10px;
+    margin-right: 10px;
+    width: 40px;
+}
 
-     /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-     background: linear-gradient(to right, #ee7724, #d8363a, #dd3675, #b44593);
- }
+.gradient-custom-2 {
+    /* fallback for old browsers */
+    background: #fccb90;
 
- @media (min-width: 768px) {
-     .gradient-form {
-         height: 100vh !important;
-     }
- }
- @media (min-width: 769px) {
-     .gradient-custom-2 {
-         border-top-right-radius: .3rem;
-         border-bottom-right-radius: .3rem;
-     }
- }
- .login{
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: -webkit-linear-gradient(to right, #ee7724, #d8363a, #dd3675, #b44593);
 
-     padding-right: 10px;
- }
- body {
-     margin: 0;
-     font-family: Roboto,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
-     font-size: .8125rem;
-     font-weight: 400;
-     line-height: 1.5385;
-     color: #333;
-     text-align: left;
-     background-color: #2196F3;
- }
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: linear-gradient(to right, #ee7724, #d8363a, #dd3675, #b44593);
+}
 
- .mt-50{
+@media (min-width: 768px) {
+    .gradient-form {
+        height: 100vh !important;
+    }
+}
 
-     margin-top: 50px;
- }
+@media (min-width: 769px) {
+    .gradient-custom-2 {
+        border-top-right-radius: .3rem;
+        border-bottom-right-radius: .3rem;
+    }
+}
 
- .mb-50{
+.login {
 
-     margin-bottom: 50px;
- }
+    padding-right: 10px;
+}
+
+body {
+    margin: 0;
+    font-family: Roboto, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-size: .8125rem;
+    font-weight: 400;
+    line-height: 1.5385;
+    color: #333;
+    text-align: left;
+    background-color: #2196F3;
+}
+
+/*Card*/
+.my-card:hover {
+    border: 2px solid #1C6EA4;
+    border-radius: 22px 22px 22px 22px;
+    -webkit-box-shadow: 0px 0px 30px 6px rgba(0, 0, 0, 0.59);
+    box-shadow: 0px 0px 30px 6px rgba(0, 0, 0, 0.59);
+    transition: .2s ease-in-out;
 
 
+}
 
- .card {
-     position: relative;
-     display: -ms-flexbox;
-     display: flex;
-     -ms-flex-direction: column;
-     flex-direction: column;
-     min-width: 0;
-     word-wrap: break-word;
-     background-color: #fff;
-     background-clip: border-box;
-     border: 1px solid rgba(0,0,0,.125);
-     border-radius: .1875rem;
- }
+.my-text:hover {
+    text-shadow: 3px 5px 2px #474747, 2px 13px 4px rgba(105, 198, 255, 0.86);
+}
 
- .card-img-actions {
-     position: relative;
- }
- .card-body {
-     -ms-flex: 1 1 auto;
-     flex: 1 1 auto;
-     padding: 1.25rem;
-     text-align: center;
- }
+/*Container*/
+.my_container {
+    margin-top: 100px;
+}
 
- .card-img{
+p {
+    font-size: 2rem;
+}
 
-     width: 350px;
- }
+/*Navbar*/
+.navbar {
 
- .star{
-     color: red;
- }
+    padding-bottom: 50%;
+}
+.shop{
 
- .bg-cart {
-     background-color:orange;
-     color:#fff;
- }
+    margin-top:10px;
+   padding-left:10px;
+}
+.fa-cart-shopping{
+    font-size: 2rem;
+}
 
- .bg-cart:hover {
+h3{
 
-     color:#fff;
- }
+    width: 3%;
+    /*position: relative;*/
+    top: 60px;
+    left: 90%;
+    cursor: pointer;
 
- .bg-buy {
-     background-color:green;
-     color:#fff;
-     padding-right: 29px;
- }
- .bg-buy:hover {
+}
+/*h3:before{*/
+/*    content: attr(data-count);*/
+/*    color: white;*/
+/*    position: absolute;*/
+/*    right: 16px;*/
+/*    font-size: 15px;*/
+/*    text-align: center;*/
+/*    margin-top:5px;*/
+/*    top: 0;*/
+/*    width: 20px;*/
+/*    height: 20px;*/
+/*    background: red;*/
+/*    border-radius: 50%;*/
+/*    opacity: 0;*/
+/*}*/
+h3:before{
+    content:attr(data-count1);
+    border:2px solid red;
+    color:white;
+    background-color:red;
+    position:absolute;
+    font-size:15px;
+    text-align:center;
+    margin-top:5px;
+    width:20px;
+    height:20px;
+    border-radius: 50%;
+    opacity: 0;
+    right:16px;
+    top:-1px;
 
-     color:#fff;
- }
+}
+h3.zero:before{
+    opacity: 1;
+}
 
- a{
+.mt-50 {
 
-     text-decoration: none !important;
- }
+    margin-top: 50px;
+}
+
+.mb-50 {
+
+    margin-bottom: 50px;
+}
+
+
+.card {
+    position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 1px solid rgba(0, 0, 0, .125);
+    border-radius: .1875rem;
+}
+
+.card-img-actions {
+    position: relative;
+}
+
+.card-body {
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto;
+    padding: 1.25rem;
+    text-align: center;
+}
+
+.card-img {
+
+    width: 350px;
+}
+
+.star {
+    color: red;
+}
+
+.bg-cart {
+    background-color: orange;
+    color: #fff;
+}
+
+.bg-cart:hover {
+
+    color: #fff;
+}
+
+.bg-buy {
+    background-color: green;
+    color: #fff;
+    padding-right: 29px;
+}
+
+.bg-buy:hover {
+
+    color: #fff;
+}
+
+a {
+
+    text-decoration: none !important;
+}
