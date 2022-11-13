@@ -175,7 +175,7 @@
             <div class="card mt-5">
                 <div class="card-body my-card">
                     <img src="images/Registeration.png">
-                    <h1 class="card-title my-text">React Native</h1>
+                    <h1 class="card-title my-text">Nest js</h1>
                     <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Suscipit, impedit aperiam soluta facilis officia blanditiis maxime dolorum perferendis rem? Similique.</p>
                     <a type="button" class="btn btn-primary btn-lg">Buy course</a>
                     <button type="button" class="btn btn-warning btn-lg">Add to cart</button>
