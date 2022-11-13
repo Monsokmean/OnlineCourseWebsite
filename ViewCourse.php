@@ -43,7 +43,7 @@
                     <hr class="my-0" />
                     <div class="card-body">
                         <div class="d-flex justify-content-between align-items-center pb-2 mb-1">
-                            <a href="#!" class="text-dark fw-bold">Cancel</a>
+                            <a href="index.php" class="text-dark fw-bold">Cancel</a>
                             <button type="button" class="btn btn-primary">Buy now</button>
                         </div>
                     </div>

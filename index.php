@@ -59,51 +59,97 @@
     </nav>
 <div class="container mt-4">
     <div class = "row">
-        <div class="col">
+        <div class="col-lg-3">
             <div class="card text-white bg-danger mb-3" style="width: 18rem;">
                 <img src="/images/nodejs.png" class="card-img-top" alt="nodejs">
                 <div class="card-body">
                     <h5 class="card-title">Nodejs for beginner</h5>
                     <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima, repellat.</p>
-                    <a href="#" class="btn btn-primary">Let's learn</a>
+                    <a href="ViewCourse.php" class="btn btn-primary">Let's learn</a>
                     <a class="card-link text-secondary p-3">View detail</a>
                 </div>
             </div>
         </div>
-        <div class="col">
+        <div class="col-lg-3">
             <div class="card text-white bg-success mb-3" style="width: 18rem;">
                 <img src="/images/ReactJs.png" class="card-img-top" alt="nodejs">
                 <div class="card-body">
                     <h5 class="card-title">Reactjs for beginner</h5>
                     <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi, facilis.</p>
-                    <a href="#" class="btn btn-success">Let's learn</a>
+                    <a href="ViewCourse.php" class="btn btn-success">Let's learn</a>
                     <a class="card-link text-secondary p-3">View detail</a>
                 </div>
             </div>
         </div>
-        <div class="col">
+        <div class="col-lg-3">
             <div class="card text-white bg-secondary mb-3" style="width: 18rem;">
                 <img src="/images/ReactNative.png" class="card-img-top" alt="nodejs">
                 <div class="card-body">
                     <h5 class="card-title">React Native for beginner</h5>
                     <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio, rerum.</p>
-                    <a href="#" class="btn btn-info">Let's learn</a>
+                    <a href="ViewCourse.php" class="btn btn-info">Let's learn</a>
                     <a class="card-link text-white p-3">View detail</a>
                 </div>
             </div>
         </div>
-        <div class="col">
+        <div class="col-lg-3">
             <div class="card text-white bg-primary mb-3" style="max-width: 18rem;">
                 <img src="/images/Nestjs.png" class="card-img-top" alt="nodejs">
                 <div class="card-body">
                     <h5 class="card-title">Nestjs for beginner</h5>
                     <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi, quae?</p>
-                    <a href="#" class="btn btn-danger">Let's learn</a>
+                    <a href="ViewCourse.php" class="btn btn-danger">Let's learn</a>
+                    <a class="card-link text-secondary p-3">View detail</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-3">
+            <div class="card text-white bg-primary mb-3" style="max-width: 18rem;">
+                <img src="/images/Nestjs.png" class="card-img-top" alt="nodejs">
+                <div class="card-body">
+                    <h5 class="card-title">Nestjs for beginner</h5>
+                    <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi, quae?</p>
+                    <a href="ViewCourse.php" class="btn btn-danger">Let's learn</a>
+                    <a class="card-link text-secondary p-3">View detail</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-3">
+            <div class="card text-white bg-primary mb-3" style="max-width: 18rem;">
+                <img src="/images/Nestjs.png" class="card-img-top" alt="nodejs">
+                <div class="card-body">
+                    <h5 class="card-title">Nestjs for beginner</h5>
+                    <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi, quae?</p>
+                    <a href="ViewCourse.php" class="btn btn-danger">Let's learn</a>
+                    <a class="card-link text-secondary p-3">View detail</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-3">
+            <div class="card text-white bg-primary mb-3" style="max-width: 18rem;">
+                <img src="/images/Nestjs.png" class="card-img-top" alt="nodejs">
+                <div class="card-body">
+                    <h5 class="card-title">Nestjs for beginner</h5>
+                    <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi, quae?</p>
+                    <a href="ViewCourse.php" class="btn btn-danger">Let's learn</a>
+                    <a class="card-link text-secondary p-3">View detail</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-3">
+            <div class="card text-white bg-primary mb-3" style="max-width: 18rem;">
+                <img src="/images/Nestjs.png" class="card-img-top" alt="nodejs">
+                <div class="card-body">
+                    <h5 class="card-title">Nestjs for beginner</h5>
+                    <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi, quae?</p>
+                    <a href="ViewCourse.php" class="btn btn-danger">Let's learn</a>
                     <a class="card-link text-secondary p-3">View detail</a>
                 </div>
             </div>
         </div>
     </div>
+
+</div>
 
 </div>
 <footer class="text-center text-lg-start bg-dark text-white">
