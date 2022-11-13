@@ -140,7 +140,7 @@
                 <div class="card-body my-card">
                     <img src="images/Registeration.png">
                     <h1 class="card-title my-text">React Native</h1>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis, ut.</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam quos quae dolorem sit consequatur cum asperiores, quidem reiciendis cupiditate quisquam.</p>
                     <a type="button" class="btn btn-primary btn-lg">Buy course</a>
                     <button type="button" class="btn btn-warning btn-lg">Add to cart</button>
                 </div>
