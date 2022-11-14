@@ -41,9 +41,9 @@
 <body>
 <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top p-3">
 
-    <div class="container-fluid c">
+    <div class="container-fluid ">
         <a class="navbar-brand" href="#"><strong><em><span>O</span>nline<span>C</span>ourse</em></strong></a>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <div class="collapse navbar-collapse" id="navbarToggleExternalContent">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                 <li class="nav-item">
                     <a class="nav-link active" aria-current="page" href="#">Home</a>
@@ -107,12 +107,13 @@
 <main role="main" class="container-fluid my_container">
     <div class="row text-center mb-4">
         <div class="col-lg-4 my-card">
-            <div class="card">
+            <div class="card" >
 
                 <div class="card-body">
-                    <img src="images/Registeration.png">
+                    <img src="images/react_native.png">
                     <h1 class="card-title my-text">React Native</h1>
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum laboriosam cupiditate minus magnam ab veritatis illum fugit libero obcaecati adipisci.</p>
+                    <p>⭐⭐⭐⭐</p>
 
                     <a type="button" class="btn btn-primary btn-lg">Buy course</a>
                     <span></span>
@@ -125,9 +126,10 @@
         <div class="col-lg-4 my-card">
             <div class="card">
                 <div class="card-body">
-                    <img src="images/Registeration.png">
-                    <h1 class="card-title my-text">React Native</h1>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis, ut.</p>
+                    <img src="images/android_development.png">
+                    <h1 class="card-title my-text">Android development</h1>
+                    <p>lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum laboriosam cupiditate minus magnam ab veritatis illum fugit libero obcaecati adipisci.</p>
+                    <p>⭐⭐⭐</p>
                     <a type="button" class="btn btn-primary btn-lg">Buy course</a>
                     <button type="button" class="btn btn-warning btn-lg">Add to cart</button>
                 </div>
@@ -138,9 +140,10 @@
             <div class="card">
 
                 <div class="card-body my-card">
-                    <img src="images/Registeration.png">
-                    <h1 class="card-title my-text">React Native</h1>
+                    <img src="images/Nestjs.png">
+                    <h1 class="card-title my-text">Nest JS</h1>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam quos quae dolorem sit consequatur cum asperiores, quidem reiciendis cupiditate quisquam.</p>
+                    <p>⭐⭐⭐</p>
                     <a type="button" class="btn btn-primary btn-lg">Buy course</a>
                     <button type="button" class="btn btn-warning btn-lg">Add to cart</button>
                 </div>
@@ -150,9 +153,10 @@
         <div class="col-lg-4">
             <div class="card mt-5">
                 <div class="card-body my-card">
-                    <img src="images/Registeration.png">
-                    <h1 class="card-title my-text">React Native</h1>
+                    <img src="images/bootstrap-icons.png">
+                    <h1 class="card-title my-text">Bootstrap</h1>
                     <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quo exercitationem porro delectus hic repudiandae consequuntur vel officia alias beatae deserunt!</p>
+                    <p>⭐⭐⭐⭐</p>
                     <a type="button" class="btn btn-primary btn-lg">Buy course</a>
                     <button type="button" class="btn btn-warning btn-lg">Add to cart</button>
                 </div>
@@ -162,9 +166,10 @@
         <div class="col-lg-4">
             <div class="card mt-5">
                 <div class="card-body my-card">
-                    <img src="images/Registeration.png">
-                    <h1 class="card-title my-text">React Native</h1>
+                    <img src="images/expressjs.png">
+                    <h1 class="card-title my-text">Express JS</h1>
                     <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Facere, dolores error dolor eius explicabo magnam voluptatibus earum a ab asperiores.</p>
+                    <p>⭐⭐⭐⭐⭐</p>
                     <a type="button" class="btn btn-primary btn-lg">Buy course</a>
                     <button type="button" class="btn btn-warning btn-lg">Add to cart</button>
                 </div>
@@ -174,9 +179,10 @@
         <div class="col-lg-4">
             <div class="card mt-5">
                 <div class="card-body my-card">
-                    <img src="images/Registeration.png">
-                    <h1 class="card-title my-text">Nest js</h1>
+                    <img src="images/js.png">
+                    <h1 class="card-title my-text">Java Script</h1>
                     <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Suscipit, impedit aperiam soluta facilis officia blanditiis maxime dolorum perferendis rem? Similique.</p>
+                    <p>⭐⭐⭐⭐⭐</p>
                     <a type="button" class="btn btn-primary btn-lg">Buy course</a>
                     <button type="button" class="btn btn-warning btn-lg">Add to cart</button>
                 </div>
@@ -287,7 +293,7 @@
                 <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
                     <!-- Links -->
                     <h6 class="text-uppercase fw-bold mb-4">Contact</h6>
-                    <p><i class="fas fa-home me-3 text-secondary"></i> New York, NY 10012, US</p>
+                    <p><i class="fas fa-home me-3 text-secondary"></i> Phnom Penh, Saint 143, KH</p>
                     <p>
                         <i class="fas fa-envelope me-3 text-secondary"></i>
                         info@example.com
@@ -305,7 +311,7 @@
     <!-- Copyright -->
     <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.025);">
         © 2021 Copyright:
-        <a class="text-reset fw-bold" href="https://mdbootstrap.com/">MDBootstrap.com</a>
+        <a class="text-reset fw-bold" href="https://mdbootstrap.com/">youtube.com</a>
     </div>
     <!-- Copyright -->
 </footer>
